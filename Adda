@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina login</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .cabecalho {
+            background-color: rgb(32, 155, 238);
+
+        }
+
+        #cabeca {
+            height: 77px;
+            padding-top: 51px;
+            text-align: center;
+        }
+
+        .img {
+            position: relative;
+            right: 226px;
+            bottom: 3px;
+
+
+        }
+
+        .login {
+            margin-left: 950px;
+            margin-top: 10px;
+            text-align: center;
+        }
+
+        .caixa-login {
+            /* display: inline; */
+            margin-bottom: 25px;
+             padding: 0 15px; 
+        }
+        .caixa-login :active{
+            background-color: yellow;
+        }
+        button{
+            margin-left: 1135px;
+            margin-top: 10px;
+           
+        }
+        #entrar:active{
+            background-color: yellow;
+        }
+
+        footer {
+
+            height: 77px;
+            padding-top: 51px;
+            text-align: center;
+            background-color: rgb(32, 155, 238);
+            ;
+
+        }
+    </style>
+</head>
+<header class="cabecalho">
+    <div id="cabeca">Aprenda se divertindo se diverdindo aprenda!</div>
+
+
+</header>
+
+<body>
+
+    <div class="login">
+        <form action="" method="post">
+        <p class="caixa-login">
+            <label for="email">E-mail</label>
+            <input type="email" name="" required>
+        </p>
+        <p class="caixa-login">
+            <label for="senha">Senha</label>
+            <input type="password" name="" required>
+        </p>
+        <input id="entrar" type="submit" value="Entrar">
+        </form>
+  
+    </div>
+   <!-- <div class="botao">
+    <button onclick="">Entrar</button>
+    </div> -->
+  
+    <div class="img">
+        <img src="img/ADDA PRANCHETA1.png" alt="">
+    </div>
+
+
+
+</body>
+<footer>Adda @senacTII12</footer>
+
+</html>
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>baixe o app</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .imgApp {
+            /* position: absolute;
+            left: 531px;
+            bottom: 70%; */
+            margin-top: 10px;
+            text-align: center;
+
+        }
+
+        .elemento {
+            display: inline;
+            margin-bottom: 25px;
+            /* margin: 25px; */
+            padding: 0 15px;
+
+
+        }
+
+        .adda-prancheta1 {
+          text-align: center;
+
+        }
+
+        .cabecalho {
+            background-color: rgb(32, 155, 238);
+
+         }
+         #cabeca{
+             height: 77px;
+             padding-top: 51px;
+             text-align: center;
+         }
+         p{
+            text-align: center;
+          
+         }
+         footer{
+             
+             height: 77px;
+             padding-top: 51px;
+             text-align: center;
+             background-color:rgb(32, 155, 238); ;
+         
+         }
+    </style>
+</head>
+<header class="cabecalho">
+    <div id="cabeca">Aprenda se divertindo se diverdindo aprenda!</div>
+
+
+</header>
+
+<body>
+    <div class="imgApp">
+
+        <p class="elemento"><a href=""><img src="img/appstore.jpg" alt="app store"></a></p>
+
+        <p class="elemento"><a href=""><img src="img/googleplay.png" alt="google play"></a></p>
+
+    </div>
+    <div class="adda-prancheta1">
+        <img src="img/ADDA PRANCHETA1.png" alt="">
+    </div>
+</body>
+<footer>Adda @senacTII12</footer>
+
+</html>
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primeira página</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .cabecalho {
+            background-color: rgb(32, 155, 238);
+            height: 116px;
+
+        }
+
+        #cabeca {
+            height: 53px;
+            padding-top: 56px;
+            text-align: center;
+        }
+
+        .inicio {
+            margin: 50px;
+            word-spacing: 15px;
+        }
+
+        /* img {
+            align-items: center;
+        } */
+         
+        .link{
+                margin-top: -33px;  
+              text-align: left;
+              word-spacing: 20px;
+              padding-left: 14px;
+              padding: 10px;
+              font-size: larger;
+           
+        }
+        a:active{
+            color: yellow;
+        }
+
+        footer {
+
+            height: 77px;
+            padding-top: 51px;
+            text-align: center;
+            background-color: rgb(32, 155, 238);
+
+
+        }
+    </style>
+</head>
+<header class="cabecalho">
+
+    <div id="cabeca">
+        <p>Aprenda se divertindo se diverdindo aprenda!</p>
+
+    </div>
+    <div class="link">
+        <p><a href="paginaparaapp.html">ALUNO</a>
+
+            <a href="paginalogin.html">PROFESSOR</a>
+        </p>
+    </div>
+
+
+</header>
+
+<body>
+    <main>
+
+        <p>
+            <img src="img/ADDA PRANCHETA1.png" alt="">
+        </p>
+
+    </main>
+
+</body>
+<footer>Adda @senacTII12</footer>
+
+</html>
