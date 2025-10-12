@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de alunos</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+
+        .cabecalho {
+            background-color: rgb(32, 155, 238);
+            height: 115px;
+            margin-bottom: 14px;
+
+        }
+
+        #cabeca {
+            height: 60px;
+            padding-top: 51px;
+            text-align: center;
+            font-family: cursive;
+            font-size: large;
+        }
+
+        .servicos {
+            margin-top: -28px;
+            text-align: left;
+            word-spacing: 20px;
+            padding-left: 14px;
+            padding: 10px;
+            font-size: small;
+            color: black;
+            text-transform: uppercase;
+            font-family: Arial, Helvetica, sans-serif;
+            /* word-spacing: 10px; */
+            margin-left: 25px;
+
+
+
+        }
+
+        a {
+            text-decoration: none;
+            word-spacing: normal;
+
+        }
+
+        a:active {
+            color: yellow;
+        }
+
+        h1 {}
+
+        form {
+            font-size: small;
+            color: black;
+            text-transform: uppercase;
+            line-height: 1.9;
+            font-family: Arial, Helvetica, sans-serif;
+            margin-left: 27px;
+            margin-bottom: 25px;
+
+        }
+
+        #formulario {}
+
+        h1 {
+            font-family: Arial, Helvetica, sans-serif;
+            margin-left: 25px;
+            margin-bottom: 29px;
+        }
+
+        #entrar {
+            color: black;
+            text-transform: uppercase;
+
+        }
+
+        #entrar {
+            background-color: green;
+        }
+
+        #entrar:active {
+            background-color: yellow;
+
+        }
+
+        .img {
+            position: absolute;
+            top: 69px;
+            left: 795px;
+
+        }
+
+        img {
+            width: 523px;
+
+        }
+
+        footer {
+
+            height: 18px;
+            padding: 51px;
+            text-align: center;
+            background-color: rgb(32, 155, 238);
+
+
+        }
+
+        .rodape {
+
+            text-align: center;
+            /* padding: 60px; */
+        }
+    </style>
+</head>
+<header class="cabecalho">
+    <div id="cabeca">Aprenda se divertindo se diverdindo aprenda!</div>
+    <div class="servicos">
+        <p>
+            <a href="">cadastrar colaborador</a>
+            <a href="">Cadastrar ALuno</a>
+            <a href="">Editar/incluir</a>
+            <a href="">Excluir</a>
+            <a href="">Dúvidas</a>
+            <a href="">Contatos</a>
+        </p>
+    </div>
+
+
+</header>
+
+<body>
+    <main>
+        <h1>Cadastro de Alunos</h1>
+        <form action="" method="post" id="formulario">
+            <div>
+                <label for="nome">Nome completo do aluno:</label>
+                <br>
+                <input type="text" />
+            </div>
+            <div>
+                <label for="serie">serie escolar:</label>
+                <br>
+                <input type="text" />
+            </div>
+            <div>
+                <label for="ra">ra:</label>
+                <br>
+                <input type="text">
+            </div>
+            <div>
+                <label for="Data">Data de nascimento:</label>
+                <br>
+                <input type="date">
+            </div>
+            <div>
+                <label for="senha">senha:</label>
+                <br>
+                <input type="password">
+            </div>
+            <div>
+                <label for="confirme">confirme sua senha:</label>
+                <br>
+                <input type="password" id="senha">
+                <br>
+                <p id="entrar">
+                    
+                    <a href="/Adda-Projeto-PI/cadastro_alunos.html">cadastrar outro aluno</a>
+
+                </p>
+
+            </div>
+
+
+        </form>
+        <div class="img">
+            <img src="img/ADDA PRANCHETA1.png" alt="">
+        </div>
+
+    </main>
+
+</body>
+<footer>
+    <p class="rodape">Adda senacTII12</p>
+</footer>
+
+</html>

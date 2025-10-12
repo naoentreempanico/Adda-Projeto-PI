@@ -1,54 +1,101 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pagina login</title>
     <style>
-        .login{
+        * {
+            margin: 0;
+            padding: 0;
+        }
 
-            position: absolute;
-            width: 500px;
-            height: 300px;
-            padding: 20px;
-            left: 1371px;
-            bottom: 500px;
+        .cabecalho {
+            background-color: rgb(32, 155, 238);
+
+        }
+
+        #cabeca {
+            height: 77px;
+            padding-top: 51px;
             text-align: center;
-            color: rgb(38, 127, 185);
-          
-    
+        }
+
+        .img {
+            position: relative;
+            right: 226px;
+            bottom: 3px;
+
+
+        }
+
+        .login {
+            margin-left: 950px;
+            margin-top: 10px;
+            text-align: center;
+        }
+
+        .caixa-login {
+            /* display: inline; */
+            margin-bottom: 25px;
+             padding: 0 15px; 
+        }
+        .caixa-login :active{
+            background-color: yellow;
         }
         button{
-            border-radius: 5%;
-            background-color: rgb(38, 127, 185);
-            
+            margin-left: 1135px;
+            margin-top: 10px;
+           
+        }
+        #entrar:active{
+            background-color: yellow;
         }
 
-      
+        footer {
 
+            height: 77px;
+            padding: 51px;
+            text-align: center;
+            background-color: rgb(32, 155, 238);
+            
+        }
     </style>
 </head>
+<header class="cabecalho">
+    <div id="cabeca">Aprenda se divertindo se diverdindo aprenda!</div>
+
+
+</header>
+
 <body>
-    <main>
-        <div class="login">
+
+    <div class="login">
         <form action="" method="post">
-             <p>
+        <p class="caixa-login">
             <label for="email">E-mail</label>
-            <input type="email" id="email" name="email" required>
+            <input type="email" name="" required>
         </p>
-            <p>
-                
-            <label>Senha:</label>
-            <input type="password">
+        <p class="caixa-login">
+            <label for="senha">Senha</label>
+            <input type="password" name="" required>
         </p>
-          <button id="botao" onclick="">Entrar</button>
-        </div>
-     
+        <input id="entrar" type="submit" value="Entrar">
         </form>
-        <p>
-            <img src="" alt="">
-        </p>
-    </main>
-    
+  
+    </div>
+   <!-- <div class="botao">
+    <button onclick="">Entrar</button>
+    </div> -->
+  
+    <div class="img">
+        <img src="img/ADDA PRANCHETA1.png" alt="">
+    </div>
+
+
+
 </body>
+<footer>Adda @senacTII12</footer>
+
 </html>
