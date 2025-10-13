@@ -75,26 +75,32 @@
             margin-bottom: 29px;
         }
 
-        #entrar {
+       .botao{
             color: black;
             text-transform: uppercase;
            
+
+
         }
 
-        #entrar:active {
-            background-color: yellow;
+        a:active {
+          color: yellow;
 
+        }
+        a{
+            color: black;
         }
 
         .img {
             position: absolute;
             top: 69px;
-            left: 795px;
+            left: 167px;
 
         }
 
         img {
-            width: 523px;
+            width: 189px;
+            padding: 196px;
 
         }
 
@@ -107,6 +113,9 @@
 
 
         }
+
+        fieldset {}
+
 
         .rodape {
 
@@ -134,43 +143,48 @@
 <body>
     <main>
         <h1>Cadastro de Alunos</h1>
+
         <form action="" method="post" id="formulario">
-            <div>
-                <label for="nome">Nome completo do aluno:</label>
-                <br>
-                <input type="text" />
-            </div>
-            <div>
-                <label for="serie">serie escolar:</label>
-                <br>
-                <input type="text" required />
-            </div>
-            <div>
-                <label for="ra">ra:</label>
-                <br>
-                <input type="text" required>
-            </div>
-            <div>
-                <label for="Data">Data de nascimento:</label>
-                <br>
-                <input type="date" required>
-            </div>
-            <div>
-                <label for="senha">senha:</label>
-                <br>
-                <input type="password" required>
-            </div>
-            <div>
-                <label for="confirme">confirme sua senha:</label>
-                <br>
-                <input type="password" id="senha" required>
-                <br>
-                <a href="cadasttro_finalizado.html">
-                <input id="entrar" type="submit" value="cadastrar"></a>
-
-            </div>
-
+            <fieldset>
+                <div>
+                    <label for="nome">Nome completo do aluno:</label>
+                    <br>
+                    <input type="text" />
+                </div>
+                <div>
+                    <label for="serie">serie escolar:</label>
+                    <br>
+                    <input type="text" required />
+                </div>
+                <div>
+                    <label for="ra">ra:</label>
+                    <br>
+                    <input type="text" required>
+                </div>
+                <div>
+                    <label for="Data">Data de nascimento:</label>
+                    <br>
+                    <input type="date" required>
+                </div>
+                <div>
+                    <label for="senha">senha:</label>
+                    <br>
+                    <input type="password" required>
+                </div>
+                <div>
+                    <label for="confirme">confirme sua senha:</label>
+                    <br>
+                    <input type="password" id="senha" required>
+                    <br>
+                    <p class="botao">
+                        <a href="/Adda-Projeto-PI/cadastro_finalizado.html">cadstrar</a>
+                     
+                    </p>
+                </div>
+            </fieldset>
         </form>
+
+
         <div class="img">
             <img src="img/ADDA PRANCHETA1.png" alt="">
         </div>
@@ -179,7 +193,7 @@
 
 </body>
 <footer>
-    <p class="rodape">Adda senacTII12</p>
+    <p class="rodape">Adda @senacTII12</p>
 </footer>
 
 </html>

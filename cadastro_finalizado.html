@@ -82,12 +82,17 @@
         }
 
         #entrar {
-            background-color: green;
+            /* background-color: green; */
+            color: black;
         }
 
-        #entrar:active {
-            background-color: yellow;
+       a:active {
+          color: yellow;
+      
 
+        }
+        a{
+            color: black;
         }
 
         .img {
@@ -124,7 +129,7 @@
     <div class="servicos">
         <p>
             <a href="">cadastrar colaborador</a>
-            <a href="">Cadastrar ALuno</a>
+            <a href="/Adda-Projeto-PI/cadastro_alunos.html">Cadastrar ALuno</a>
             <a href="">Editar/incluir</a>
             <a href="">Excluir</a>
             <a href="">Dúvidas</a>
@@ -139,35 +144,36 @@
     <main>
         <h1>Cadastro de Alunos</h1>
         <form action="" method="post" id="formulario">
+            <fieldset>
             <div>
                 <label for="nome">Nome completo do aluno:</label>
                 <br>
-                <input type="text" />
+                <input type="text" value="Valentia de Oliveira"/>
             </div>
             <div>
                 <label for="serie">serie escolar:</label>
                 <br>
-                <input type="text" />
+                <input type="text" value="2º série" />
             </div>
             <div>
                 <label for="ra">ra:</label>
                 <br>
-                <input type="text">
+                <input type="text" value="20252520">
             </div>
             <div>
                 <label for="Data">Data de nascimento:</label>
                 <br>
-                <input type="date">
+                <input type="date" value="2018-08-08">
             </div>
             <div>
                 <label for="senha">senha:</label>
                 <br>
-                <input type="password">
+                <input type="password" value="8888">
             </div>
             <div>
                 <label for="confirme">confirme sua senha:</label>
                 <br>
-                <input type="password" id="senha">
+                <input type="password" id="senha" value="8888">
                 <br>
                 <p id="entrar">
                     
@@ -176,7 +182,7 @@
                 </p>
 
             </div>
-
+</fieldset>
 
         </form>
         <div class="img">
@@ -187,7 +193,7 @@
 
 </body>
 <footer>
-    <p class="rodape">Adda senacTII12</p>
+    <p class="rodape">Adda @senacTII12</p>
 </footer>
 
 </html>
