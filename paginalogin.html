@@ -1,54 +1,143 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pagina login</title>
     <style>
-        .login{
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .cabecalho {
+            background-color: rgb(32, 155, 238);
+
+        }
+
+        #cabeca {
+            height: 77px;
+            padding-top: 51px;
+            text-align: center;
+        }
+
+        /* .img {
+            position: relative;
+            right: 226px;
+            bottom: 3px; */
+
+
+
+
+        .login {
+            margin-left: 950px;
+            margin-top: 10px;
+            text-align: center;
+        }
+
+        .caixa-login {
+            /* display: inline; */
+            margin-bottom: 25px;
+            padding: 0 15px;
+        }
+
+        .caixa-login :active {
+            background-color: yellow;
+        }
+
+        button {
+            margin-left: 1135px;
+            margin-top: 10px;
+
+        }
+
+        a:active {
+            color: yellow;
+        }
+
+        a {
+            color: black;
+            text-decoration: none;
+            text-transform: uppercase;
+        }
+
+
+        /* .img {
+            position: absolute;
+            top: 69px;
+            left: 167px;
+
+        } */
+
+        img {
+            width: 189px;
+
+        }
+
+
+        footer {
+
+            height: 77px;
+            padding-top: 51px;
+            text-align: center;
+            background-color: rgb(32, 155, 238);
+
+
+        }
+
+        #roda {
 
             position: absolute;
-            width: 500px;
-            height: 300px;
-            padding: 20px;
-            left: 1371px;
-            bottom: 500px;
+            bottom: 0%;
+            width: 100%;
+        }
+
+        .rodape {
+
             text-align: center;
-            color: rgb(38, 127, 185);
-          
-    
+            /* padding: 60px; */
         }
-        button{
-            border-radius: 5%;
-            background-color: rgb(38, 127, 185);
-            
-        }
-
-      
-
     </style>
 </head>
+<header class="cabecalho">
+    <div id="cabeca">Aprenda se divertindo se diverdindo aprenda!</div>
+
+
+</header>
+
 <body>
-    <main>
-        <div class="login">
+
+    <div class="login">
         <form action="" method="post">
-             <p>
-            <label for="email">E-mail</label>
-            <input type="email" id="email" name="email" required>
-        </p>
-            <p>
-                
-            <label>Senha:</label>
-            <input type="password">
-        </p>
-          <button id="botao" onclick="">Entrar</button>
-        </div>
-     
+            <p class="caixa-login">
+                <label for="email">E-mail</label>
+                <input type="email" name="" required>
+            </p>
+            <p class="caixa-login">
+                <label for="senha">Senha</label>
+                <input type="password" name="" required>
+            </p>
+            <p id="button">
+
+                <a href="paginas_servicos.html">entrar</a>
+            </p>
         </form>
-        <p>
-            <img src="" alt="">
-        </p>
-    </main>
-    
+
+    </div>
+    <!-- <div class="botao">
+    <button onclick="">Entrar</button>
+    </div> -->
+
+    <div class="img">
+        <img src="img/ADDA PRANCHETA1.png" alt="">
+    </div>
+
+
+
 </body>
+<footer id="roda">
+    <p class="rodape">Adda @senacTII12</p>
+</footer>
+
 </html>
